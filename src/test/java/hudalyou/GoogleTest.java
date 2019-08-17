@@ -29,7 +29,7 @@ public class GoogleTest {
                 .selectNext2();
 
         String result1= googlePage.checkMainMailPage();
-        System.out.println(result1+" Несортированные");
+     //  System.out.println(result1+" Несортированные");
        Assert.assertEquals(result1,"Несортированные");
 
        //   Case2
@@ -37,7 +37,7 @@ public class GoogleTest {
                 .selectName()
                 .selectEscape();
         String result2= googlePage.checktAutorizePage();
-         System.out.println(result2+" Забыли пароль?");
+       // System.out.println(result2+" Забыли пароль?");
         Assert.assertEquals(result2,"Забыли пароль?");
 
         //  Case3
@@ -50,7 +50,7 @@ public class GoogleTest {
                 .setText("Hello World!!!")
                 .selectSend();
         String result3= googlePage.checkMail();
-        System.out.println(result3+" Входящие");
+      //  System.out.println(result3+" Входящие");
         Assert.assertTrue(result3 != null);
 
     }
