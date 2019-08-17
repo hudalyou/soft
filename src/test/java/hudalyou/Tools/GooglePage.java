@@ -32,23 +32,20 @@ public class GooglePage {
         Util.shortWait(driver);
         Util.find(driver, wrt).click();
         Util.shortWait(driver);
-        System.out.println("111");
+       // System.out.println("111");
         return this;
     }
     public GooglePage setWhom(String origin) {
         WebElement setWhm = Util.find(driver, whom);
         setWhm.sendKeys(origin);
-      //  Util.shortWait(driver);
-       // setWhm.sendKeys("iivnv4@gmail.com");
-
-        System.out.println("!!!"+origin);
+    //    System.out.println("!!!"+origin);
         return this;
     }
     public GooglePage setTopic(String origin) {
         WebElement setTpc = Util.find(driver, topic);
         setTpc.sendKeys(origin);
         Util.shortWait(driver);
-        System.out.println("%%%");
+      //  System.out.println("%%%");
         return this;
     }
     public GooglePage setText(String origin) {
@@ -61,7 +58,7 @@ public class GooglePage {
     public GooglePage selectSend() {
 
         Util.find(driver, send).click();
-        System.out.println("____");
+      //  System.out.println("____");
         Util.shortWait(driver);
         return this;
     }
