@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="181703" started-at="2019-08-09T15:07:42Z" finished-at="2019-08-09T15:10:43Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="181703" started-at="2019-08-09T15:07:42Z" finished-at="2019-08-09T15:10:43Z">
+      <class name="hudalyou.TutTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:hudalyou.TutTest@407d53]" name="setUpBrowser" is-config="true" duration-ms="10806" started-at="2019-08-09T18:07:42Z" finished-at="2019-08-09T18:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="controlMail()[pri:0, instance:hudalyou.TutTest@407d53]" name="controlMail" duration-ms="166004" started-at="2019-08-09T18:07:53Z" finished-at="2019-08-09T18:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlMail -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:hudalyou.TutTest@407d53]" name="tearDownBrowser" is-config="true" duration-ms="4730" started-at="2019-08-09T18:10:39Z" finished-at="2019-08-09T18:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- hudalyou.TutTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
